@@ -7,8 +7,8 @@ this little helper<br />
 3- find live subdomains<br />
 All search results report in /Results/domain.com/<br /><br />
 This made by Ali Kaan  BAŞHAN 25/06/2021  (Day-Month-Year)
-<br />
+<br /><br />
 How to Use?
-<br />
+<br /><br />
 python3 1bosluk.py<br />
 example.com
