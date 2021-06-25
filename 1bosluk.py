@@ -46,6 +46,8 @@ for c in liste:
 	file2.write(c+"\n")
 		#print(outputIP)
 
+file.close()
+file2.close()
 onlineSubdomains = codecs.open(dosyaYolu+"_onlineSubDomains.txt", "a", "utf-8")
 f = open(dosyaYolu+"_subdomains.txt", "r")
 hepsi = f.readlines()
@@ -56,7 +58,7 @@ for a in hepsi:
 	heyyo = os.popen(komut).read()
 	if heyyo.find("has address") != -1:
 		print(siteAdresi)
-		onlineSubdomains.write(c + "\n")
+		onlineSubdomains.write(siteAdresi + "\n")
 
 #for c in liste:
 #	komut = "nmap "+c+" --script=vulners.nse -sV"
